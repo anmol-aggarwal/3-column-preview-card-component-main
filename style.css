@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  width: 65%;
+  position: relative;
+  left: 250px;
+  top: 150px;
+}
+
+.headings {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.box-1 {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding: 4rem 3rem 3rem 3rem;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.box-2 {
+  padding: 4rem 3rem 3rem 3rem;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.box-3 {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 4rem 3rem 3rem 3rem;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.content {
+  font-weight: 300;
+  padding-bottom: 4rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.buttons {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 4rem;
+  font-size: medium;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.b1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.b2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.b3 {
+  color: hsl(179, 100%, 13%);
+}
